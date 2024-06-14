@@ -37,3 +37,11 @@ def solution(people, limit):
             max -= 1
         cnt += 1
     return cnt
+
+
+# 그리디 알고리즘(탐욕법, Greedy Algorithm)
+#   : 각 단계에서 최적이라고 생각되는 것을 선택해 나가는 방식
+#       1) 탐욕 선택 속성(Greedy Choice Property)
+#           각 단계에서 최선의 선택을 했을 때 전체 문제에 대한 최적해를 구할수 있는 경우
+#       2) 최적 부분 구조(Optimal Substructure)
+#           전체 문제의 최적해가 부분 문제의 최적해로 구성될 수 있는 경우
